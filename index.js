@@ -1,9 +1,7 @@
 function isPalindrome(word) {
-  // Remove any non-letter characters and convert to lowercase
   const cleanWord = word.replace(/[^a-z]/g, '').toLowerCase();
   
-  // Reverse the cleaned word and compare it to the original
-  return cleanWord === cleanWord.split('').reverse().join('');
+i  return cleanWord === cleanWord.split('').reverse().join('');
 }
 
 /* 
